@@ -4,7 +4,9 @@
   "description": "Learning about ERC-721(NFT)",
   "main": "index.js",
   "scripts": {
-    "test": "truffle test"
+    "test": "truffle test",
+    "compile": "truffle compile --all",
+    "migrate": "truffle migrate --reset --network development"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/Abdillahzakkie/Cryto-collectibles#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0-solc-0.7",
     "truffle": "^5.1.56"
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "ganache-cli": "^6.12.1"
   }
 }
