@@ -1,0 +1,22 @@
+{
+  "name": "cryto-collectibles",
+  "version": "1.0.0",
+  "description": "Learning about ERC-721(NFT)",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdillahzakkie/Cryto-collectibles.git"
+  },
+  "author": "Abdullah Zakariyya (zakariyyaopeyemi@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abdillahzakkie/Cryto-collectibles/issues"
+  },
+  "homepage": "https://github.com/Abdillahzakkie/Cryto-collectibles#readme",
+  "dependencies": {
+    "truffle": "^5.1.56"
+  }
+}
